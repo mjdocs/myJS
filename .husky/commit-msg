@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+
+# Task
+# Minimal checking if our commit message pattern locally and our branch name pattern are equal
+
+# Logs colors in termainal about seccess or failure 
+WHITE='\033[0;37m'
+RED='\033[0;31m'
+B_RED='\033[1;31m'
+GREEN='\033[0;32m'
+NO_COLOR='\033[0m'
+YELLOW='\033[0;33m'
+
+# Find your current working branch name. Ex: TDE-1
+current_branch_name=$(git symbolic-ref --short HEAD)
+
+# Find branch name length. Ex: 5
+branch_name_len=${#current_branch_name}
+
+# Find path to last commit message file. Ex: path/to/commit/msg/file
+path_to_commit="$(pwd)/.git/COMMIT_EDITMSG"
+
+# Find last commit massage from file. Ex: TDE-1: add something
+commit_msg=$(cat $path_to_commit)
+
+# Match string with length <branch_name_len> from start of commit message. Ex: TDE-1
+prefix_commit_msg=${commit_msg:0:$branch_name_len}
+
+# Compare <current_branch_name> and <prefix_commit_msg> and handle it with tips
+if [[ "$current_branch_name" != "$prefix_commit_msg" ]]; then
+    # Failure
+    printf "${RED}✘ ${B_RED}Incorrect commit message!${NO_COLOR}\n\
+${YELLOW}Need help? You should print commit message like this:\n${YELLOW}Template:${NO_COLOR} \
+${WHITE}git commit -m \"branchName-taskNumber: your commit message here\"${NO_COLOR}\n\
+${YELLOW}Example:${NO_COLOR} ${WHITE}git commit -m \"TDE-123: some fixes\"${NO_COLOR}\n"
+    exit 1
+else
+    # Success
+	printf "${GREEN}✔${NO_COLOR} Success! Commit message approved.\n"
+fi

@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+# Task
+# Add commit message branch name prefix with checking if it already exists
+
+# Logs colors in termainal about seccess or failure 
+GREEN='\033[0;32m'
+NO_COLOR='\033[0m'
+
+# Find your current working branch name. Ex: TDE-1
+current_branch_name=$(git symbolic-ref --short HEAD)
+
+# Find branch name length. Ex: 5
+branch_name_len=${#current_branch_name}
+
+# Find path to last commit message file. Ex: path/to/commit/msg/file
+path_to_commit="$(pwd)/.git/COMMIT_EDITMSG"
+
+# Find last commit massage from file. Ex: TDE-1: add something
+commit_msg=$(cat $path_to_commit)
+
+# Match string with length <branch_name_len> from start of commit message. Ex: TDE-1
+prefix_commit_msg=${commit_msg:0:$branch_name_len}
+
+# Compare <current_branch_name> and <prefix_commit_msg> and handle it with tips
+if [[ "$current_branch_name" != "$prefix_commit_msg" ]]; then
+    # Add prefix to commit message
+    echo "${current_branch_name}: ${commit_msg}" > $path_to_commit
+    printf "${GREEN}✔${NO_COLOR} Commit message has been corrected!\n"
+else
+    # Just skip the step
+	printf "${GREEN}✔${NO_COLOR} Commit message is already correct!\n"
+fi
