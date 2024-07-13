@@ -1,8 +1,8 @@
-<hgroup style="text-align: center;">
-    <h1>Книга myJS</h1>
-    <p style="color: hsl(0, 0%, 70%);">Первое приближение к общему пониманию ECMAScript Language Specification.</p>
+<hgroup>
+    <h1 align='center'>Книга myJS</h1>
+    <p align='center'>Первое приближение к общему пониманию ECMAScript Language Specification.</p>
 </hgroup>
-<div>
+<div align='center'>
     <img src="/assets/tc39.png" width="50" height="50">
     <img src="/assets/ecma.png" width="50" height="50">
     <img src="/assets/js.png" width="50" height="50">
