@@ -3,10 +3,11 @@
     <p align='center'>Первое приближение к общему пониманию ECMAScript Language Specification.</p>
 </hgroup>
 <div align='center'>
+    <img src="/assets/ecma.png" width="50" height="50">
     <img src='/assets/ecmaBg.png' height="50">
     <img src="/assets/tc39.png" width="50" height="50">
-    <img src="/assets/ecma.png" width="50" height="50">
     <img src="/assets/js.png" width="50" height="50">
+    <img src='/assets/v8.png' width='50' height='50'>
 </div>
 
 ## О чём эта книга?
