@@ -1,6 +1,14 @@
-# myJS
-
-Первое приближение к общему пониманию ECMAScript Language Specification.
+<hgroup>
+    <h1 align='center'>Книга myJS</h1>
+    <p align='center'>Первое приближение к общему пониманию ECMAScript Language Specification.</p>
+</hgroup>
+<div align='center'>
+    <img src="/assets/ecma.png" width="50" height="50">
+    <img src='/assets/ecmaBg.png' height="50">
+    <img src="/assets/tc39.png" width="50" height="50">
+    <img src="/assets/js.png" width="50" height="50">
+    <img src='/assets/v8.png' width='50' height='50'>
+</div>
 
 ## О чём эта книга?
 
@@ -21,4 +29,5 @@ ECMAScript, именно как для разработчика на языке 
 
 -   Глава 0: [Важное предисловие](/Preface.md)
 -   Глава 1: [Введение](/Introduction.md)
--   Глава 2.0: ["Начало"](get-started/Chapter_0.md)
+-   Глава 2.0: ["Начало" языка](get-started/Chapter_0.md)
+    -   Глава 2.1: [Грамматика языка спецификации](get-started/Chapter_1.md)
