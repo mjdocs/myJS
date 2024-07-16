@@ -1,19 +1,26 @@
-# Глава 1: Введение
+<div align='left'>
+    <img src='assets/informal.svg'>
+    <img src='assets/easy.svg'>
+</div>
+
+# Глава 2: Введение
 
 В этой главе хотелось бы поговорить о происхождении ECMAScript Language Specification и JavaScript.
 <br><br> Давайте начнём с основных определений, которые каждый сможет найти на просторах интернета.
-Определим для себя термины в нашем контексте повествования, чтобы отталкиваться от них в будущем.
+Определим для себя термины в контексте нашего повествования, чтобы отталкиваться от них в будущем.
 Итак, если обращаться к определению термина "_спецификация_", мы увидим следующее:
 
-> Спецификация — это документ, устанавливающий требования.  
->  —
-> [Wikipedia](https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F)
+> **_A specification_** often refers to a set of **_documented requirements_** to be satisfied by a
+> material, design, product, or service. A specification is often a type of **_technical
+> standard_**.
+>
+> ~ [wiki](<https://en.wikipedia.org/wiki/Specification_(technical_standard)>)
 
 Далее давайте взглянем на определение термина "_ECMAScript_":
 
 > ECMAScript is an object-oriented programming language for performing computations and manipulating
 > computational objects within a host environment.  
->  — [tc39](https://tc39.es/ecma262/multipage/overview.html#sec-overview)
+>  ~ [tc39](https://tc39.es/ecma262/multipage/overview.html#sec-overview)
 
 То есть ECMAScript — это объектно-ориентированный язык программирования для выполнения вычислений и
 управления вычислительными объектами в хост-среде. Для того, чтобы контролировать работу и
@@ -72,5 +79,5 @@ JavaScript золотой билет в счастливое будущее.
 (это две противоположные модели повествования официального стандарта ECMA-262). <br>**_Вот такой
 JavaScript "лёгкий" язык._**
 
-~ [Глава 0: Важное предисловие](/Preface.md) > Глава 1: Введение >
-[Глава 2: "Начало" языка](/get-started/Chapter_0.md)
+~ [Глава 1: Методология исследования](Methodology.md) > Глава 2: Введение >
+[Глава 3.0: "Начало" языка](/get-started/Chapter_0.md)
