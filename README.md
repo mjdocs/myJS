@@ -9,7 +9,6 @@
     <img src="/assets/js.png" width="50" height="50">
     <img src='/assets/v8.png' width='50' height='50'>
 </div>
-<img src='/assets/ecma-logo.svg'>
 
 ## 📘 О чём эта книга?
 
@@ -78,3 +77,7 @@ _лёгкой доступности_. Это единственный и пря
 
 На книгу распространяется лицензия:
 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+<div align='left'>
+    <img src='/assets/ecma-logo.svg'>
+</div>
