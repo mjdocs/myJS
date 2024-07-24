@@ -1,5 +1,5 @@
 <div align='center'>
-    <img src='assets/ecma-big.png' width='85%'>
+    <img src='assets/ecma-big.png'>
 </div>
 
 <br>
