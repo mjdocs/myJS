@@ -1,6 +1,6 @@
-# 🤠 Привет, мир!
-
-![bgImg](/assets/ecma-big.png)
+<div align='center'>
+    <img src='assets/ecma-big.png' width='85%'>
+</div>
 
 <br>
 
@@ -8,14 +8,6 @@
     <h1 align='center'>— MyJS Web Docs —</h1>
     <p align='center'>Первое приближение к общему пониманию ECMAScript Language Specification.</p>
 </hgroup>
-<div align='center'>
-    <img src="/assets/myJS.png" height="50">
-    <img src="/assets/ecma.png" width="50" height="50">
-    <img src='/assets/ecmaBg.jpg' height="50">
-    <img src="/assets/tc39.png" width="50" height="50">
-    <img src="/assets/js.png" width="50" height="50">
-    <img src='/assets/v8.png' width='50' height='50'>
-</div>
 
 [MyJS Web Docs](https://github.com/denlove/myJS) — это _неофициальная авторская документацая_ в
 формате непринуждённого разговора с читателем, представляющая из себя набор сгруппированных по
@@ -94,6 +86,18 @@ JavaScript движок современности.
         <img width='50' height='50' src="https://avatars.githubusercontent.com/u/95541878?v=4" alt="denlove avatar" />
     </a>
 </div>
+<br>
+
+Информация собрана при поддержке таких проектов, как:
+
+<div align='left'>
+    <img src="/assets/ecma.png" width="50" height="50">
+    <img src='/assets/ecmaBg.jpg' height="50">
+    <img src="/assets/tc39.png" width="50" height="50">
+    <img src='/assets/v8.png' width='50' height='50'>
+    <img src="/assets/myJS.png" height="50">
+</div>
+
 <br>
 
 ## 🎓 Лицензия и Авторское право
