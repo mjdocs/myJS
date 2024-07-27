@@ -2,7 +2,7 @@
     <img src='assets/ecma-big.png'>
 </div>
 
-<br>
+<br><br>
 
 <div align='right'>
     <q><i>The World’s Most Misunderstood Programming Language Has Become the World’s Most Popular Programming Language</i></q>
@@ -11,7 +11,7 @@
 
 📜[^1]
 
-</div><br><br>
+</div><br>
 
 <hgroup>
     <h1 align='center'>— MyJS Web Docs —</h1>
