@@ -4,6 +4,15 @@
 
 <br>
 
+<div align='right'>
+    <q><i>The World’s Most Misunderstood Programming Language Has Become the World’s Most Popular Programming Language</i></q>
+    <br>
+    <sub>~ Douglas Crockford, 2008</sub>
+
+📜[^1]
+
+</div><br><br>
+
 <hgroup>
     <h1 align='center'>— MyJS Web Docs —</h1>
     <p align='center'>Первое приближение к общему пониманию ECMAScript Language Specification.</p>
@@ -83,7 +92,7 @@ JavaScript движок современности.
 
 <div>
     <a href='https://github.com/denlove'>
-        <img width='50' height='50' src="https://avatars.githubusercontent.com/u/95541878?v=4" alt="denlove avatar" />
+        <img width='100' height='100' src="./assets/profile.png" alt="denlove avatar" />
     </a>
 </div>
 <br>
@@ -91,11 +100,13 @@ JavaScript движок современности.
 Информация собрана при поддержке таких проектов, как:
 
 <div align='left'>
-    <img src="/assets/ecma.png" width="50" height="50">
-    <img src='/assets/ecmaBg.jpg' height="50">
-    <img src="/assets/tc39.png" width="50" height="50">
-    <img src='/assets/v8.png' width='50' height='50'>
-    <img src="/assets/myJS.png" height="50">
+    <img src="./assets/ecma.png" width="50" height="50">
+    <img src='./assets/ecmaBg.jpg' height="50">
+    <img src="./assets/tc39.png" width="50" height="50">
+    <img src="./assets/myJS.png" height="50">
+    <img src="./assets/whatwg.png" width="50" height="50">
+    <img src='./assets/v8.png' height='50'>
+    <img src='./assets/chromium.png' height='50'>
 </div>
 
 <br>
@@ -104,3 +115,10 @@ JavaScript движок современности.
 
 На документацию распространяется лицензия:
 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+[^1]:
+    Название [статьи](https://crockford.com/javascript/popular.html), опубликованной в 2008 году
+    американским программистом
+    [Дугласом Крокфордом](https://en.wikipedia.org/wiki/Douglas_Crockford). На тот момент это была
+    интересная фигура в мире веб-индустрии. Сам Брендан говорил о нём
+    [такие слова](<https://brendaneich.com/2005/06/javascript-1-2-and-in-between/#:~:text=top%20of%20it.%20(-,I%20don%E2%80%99t%20agree%20with%20everything%20Doug%20Crockford%20writes%20at%20the%20last%20two%20links%2C%20but%20most%20of%20his%20arrows%20hit%20their%20targets.,-)>).
