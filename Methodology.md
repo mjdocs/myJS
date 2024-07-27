@@ -2,7 +2,7 @@
     <img src='assets/informal.svg'>
     <img src='assets/easy.svg'>
     &nbsp;&nbsp;
-    <sup><b>9 min</b></sup>
+    <sup><b>8 min</b></sup>
 </div>
 
 # Глава 1: Методология исследования
