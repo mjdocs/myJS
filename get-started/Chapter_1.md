@@ -7,7 +7,7 @@
     <q><i>JS is not going away, so it ought to evolve. As with sharks 
     (and relationships, see <a href='https://www.imdb.com/title/tt0075686/quotes/'>Annie Hall</a>),<br>a programming language is either moving forward, or it’s dead.</i></q>
     <br>
-    <font size='2' color='grey'>~ Brendan Eich, 2005</font>
+    <sub>~ Brendan Eich, 2005</sub>
 
 📜[^1]
 

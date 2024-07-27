@@ -6,7 +6,7 @@
 <div align='right'>
     <q><i>Success has many fathers</i></q>
     <br>
-    <font size='2' color='grey'>~ First ECMA JS meeting, 1996</font>
+    <sub>~ First ECMA JS meeting, 1996</sub>
 
 📜[^1]
 

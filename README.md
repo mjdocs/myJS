@@ -7,7 +7,7 @@
 <div align='right'>
     <q><i>The World’s Most Misunderstood Programming Language Has Become the World’s Most Popular Programming Language</i></q>
     <br>
-    <font size='2' color='grey'>~ Douglas Crockford, 2008</font>
+    <sub>~ Douglas Crockford, 2008</sub>
 
 📜[^1]
 
