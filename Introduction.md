@@ -1,6 +1,8 @@
 <div align='left'>
     <img src='assets/informal.svg'>
     <img src='assets/easy.svg'>
+    &nbsp;&nbsp;
+    <sup><b>9 min</b></sup>
 </div>
 
 <div align='right'>
@@ -76,7 +78,7 @@
 <summary><i>Интересный факт</i></summary>
 <br>
 
-> Одновременно с приобретением языка JavaScript своего культового названия Брендан Эйх разработал
+> Одновременно с приобретением языком JavaScript своего культового названия Брендан Эйх разработал
 > известный и по сей день движок для выполнения кода в браузере Netscape Navigator. Он получил
 > название [SpiderMonkey](https://en.wikipedia.org/wiki/SpiderMonkey). Сейчас успешно используется в
 > браузере [Firefox](https://en.wikipedia.org/wiki/Firefox).
@@ -96,7 +98,7 @@ JavaScript, породил "клонов" по типу [JScript](https://en.wik
 спецификация ассоциации
 <abbr title='Ранее - European Computer Manufacturers Association'>ECMA</abbr> в качестве стандарта
 [ECMA-262](https://ecma-international.org/publications-and-standards/standards/ecma-262/) под
-названием ECMAScript Language Specification, написанная за 7 месяцев.
+названием "_ECMAScript Language Specification_", написанная за 7 месяцев.
 
 В данный момент у любого человека обязательно появится вполне логичный вопрос: а почему же
 спецификацию не назвали в честь языка? **_Бюрократия_**. Ранее торговая марка "_JavaScript_" с
@@ -121,11 +123,11 @@ JavaScript, породил "клонов" по типу [JScript](https://en.wik
 
 </details>
 
-И с тех самых пор печально известный JavaScript развивался согласно спецификации ECMAScript Language
-Specification. Он испытывал много взлётов и падений на протяжении долгих лет, а появление на свет
-грандиозной виртуальной машины [V8](<https://en.wikipedia.org/wiki/V8_(JavaScript_engine)>) для
-[Goggle Chrome](https://en.wikipedia.org/wiki/Google_Chrome) снова перевернуло всю веб-индустрию и
-дало языку JavaScript золотой билет в счастливое будущее.
+И с тех самых пор печально известный JavaScript развивался, согласно спецификации ECMAScript
+Language Specification. Он испытывал много взлётов и падений на протяжении долгих лет, а появление
+на свет грандиозной виртуальной машины [V8](<https://en.wikipedia.org/wiki/V8_(JavaScript_engine)>)
+для [Goggle Chrome](https://en.wikipedia.org/wiki/Google_Chrome) снова перевернуло всю веб-индустрию
+и дало языку JavaScript золотой билет в счастливое будущее.
 
 <details>
 <summary><i>Интересный факт</i></summary>
@@ -145,8 +147,8 @@ Specification. Он испытывал много взлётов и падени
 утроен язык JavaScript "_под капотом_", важно уметь различать, где есть JavaScript, а где —
 JavaScript host environment; где есть тип языка ECMAScript, а где — тип спецификации ECMAScript; где
 символы "**!**" или "**?**" учавствуют, как токены языка ECMAScript, а где — как сокращение для
-более "удобного" описания алгоритмов спецификации ECMAScript. То есть для начала необходимо понять,
-как спецификация написана.
+более "удобного" описания алгоритмов спецификации. То есть для начала необходимо понять, как
+спецификация написана.
 
 Одним словом, для качественного и полноценного понимания языка нужно дифференциировать спецификацию
 языка ECMAScript и язык спецификации ECMAScript (это две переплетающиеся модели повествования
