@@ -50,9 +50,10 @@
 -   Глава 1: [Методология исследования](/Methodology.md)
 -   Глава 2: [Введение](/Introduction.md)
 -   Глава 3.0: ["Начало" языка](get-started/index.md)
-    -   Глава 3.1: [Грамматика языка спецификации](get-started/Chapter_1.md) ✏️
-    -   Глава 3.2: [Типы языка спецификации](get-started/Chapter_2.md) ✏️
-    -   Глава 3.3: [Алгоритмы или "опять ReturnIfAbrupt"](get-started/Chapter_3.md) ✏️
+    -   Глава 3.1: [Грамматика языка спецификации](get-started/Chapter_1.md)
+    -   Глава 3.2: [Грамматика — Свобода vs Сложность](get-started/Chapter_2.md)
+    -   Глава 3.3: [Типы языка спецификации](get-started/Chapter_3.md) ✏️
+    -   Глава 3.4: [Алгоритмы или "опять ReturnIfAbrupt"](get-started/Chapter_4.md) ✏️
 -   Глава 4.0 [Операции](operations/index.md) ✏️
 
 <br>

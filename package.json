@@ -4,14 +4,14 @@
     "main": "index.js",
     "repository": "git@github.com:denlove/myJS.git",
     "author": "Denis <bronzovdenis59@gmail.com>",
-    "license": "MIT",
     "devDependencies": {
         "husky": "^8.0.0",
         "prettier": "^3.3.2",
         "lint-staged": "^15.2.7"
     },
     "scripts": {
-        "lint": "lint-staged",
+        "lint-staged": "lint-staged",
+        "lint": "prettier . -c",
         "postinstall": "husky"
     },
     "lint-staged": {
