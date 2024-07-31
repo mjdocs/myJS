@@ -1,6 +1,8 @@
 <div align='left'>
     <img src='../assets/formal.svg'>
     <img src='../assets/hard.svg'>
+    &nbsp;&nbsp;
+    <sup><b>18 min</b></sup>
 </div>
 
 <div align='right'>
