@@ -32,10 +32,11 @@
 есть такие, как:
 
 -   [tc39](https://tc39.es/ecma262/multipage/)
--   [v8](https://v8.dev/blog)
+-   [v8 blog](https://v8.dev/blog)
 -   [Wikipedia](https://www.wikipedia.org/)
 -   [WHATWG](https://spec.whatwg.org/)
--   [brendaneich](https://brendaneich.com/)
+-   [brendaneich blog](https://brendaneich.com/)
+-   [chromium blog](https://blog.chromium.org/)
 
 В основном ресурсы представляют из себя контент в формате английского языка. Мною будут взяты прямые
 цитаты из этих источников без изменений и, конечно, без переводов. Сразу же после них я буду давать
