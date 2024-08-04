@@ -121,7 +121,9 @@ _операции оценки_
 
 <div align='center'>
     <img src='assets/type1.png' alt='Image with type'>
-    <p><i>Таблица типа Completion Record.</i></p>
+    <p><i>Таблица типа <a href='https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-completion-record-specification-type'>
+        Completion Record
+    </a></i></p>
 </div>
 <br>
 
@@ -154,9 +156,20 @@ _"Append **something** to **List**"_, _"Insert **something** as the first elemen
 
 <div align='center'>
     <img src='assets/type2.png' alt='Image with type'>
-    <p><i>Часть алгоритма абстрактной операции GlobalDeclarationInstantiation.</i></p>
+    <p><i>Часть алгоритма абстрактной операции 
+        <a href='https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#sec-globaldeclarationinstantiation'>GlobalDeclarationInstantiation
+        </a></i></p>
 </div>
 <br>
+
+#### 3. [Record type](https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-ecmascript-specification-types:~:text=operation%20IsLessThan.-,The%20Record%20type,-is%20used%20to)
+
+_Record_ является общим типом для многих частных его реализаций, например, как в первом приложении -
+[_Completion Record_](https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-completion-record-specification-type).
+Согласно спецификации, этот тип нужен для описания "_data aggregations_", что интуитивно понятнее
+будет назвать _кластерами данных_, в алгоритмах.
+
+...
 
 [^1]:
     Авторский термин. В спецификации нет такого понятия, как "_система типов_". Под этим выражением
