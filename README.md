@@ -1,5 +1,5 @@
 <div align='center'>
-    <img src='assets/ecma-big.png'>
+    <img src='./docs/assets/ecma-big.png'>
 </div>
 
 <br><br>
@@ -46,15 +46,16 @@
 
 Здесь представлено полное доступное содержание документации:
 
--   Глава 0: [Важное предисловие](/Preface.md)
--   Глава 1: [Методология исследования](/Methodology.md)
--   Глава 2: [Введение](/Introduction.md)
--   Глава 3.0: ["Начало" языка](get-started/index.md)
-    -   Глава 3.1: [Грамматика языка спецификации](get-started/Chapter_1.md)
-    -   Глава 3.2: [Грамматика — Свобода vs Сложность](get-started/Chapter_2.md)
-    -   Глава 3.3: [Типы языка спецификации](get-started/Chapter_3.md) ✏️
-    -   Глава 3.4: [Алгоритмы или "опять ReturnIfAbrupt"](get-started/Chapter_4.md) ✏️
--   Глава 4.0 [Операции](operations/index.md) ✏️
+-   Глава 0: [Важное предисловие](./docs/Preface.md)
+-   Глава 1: [Методология исследования](./docs/Methodology.md)
+-   Глава 2: [Введение](./docs/Introduction.md)
+-   Глава 3.0: ["Начало" языка](./docs/get-started/index.md)
+    -   Глава 3.1: [Грамматика языка спецификации](./docs/get-started/Chapter_1.md)
+    -   Глава 3.2: [Грамматика — Свобода vs Сложность](./docs/get-started/Chapter_2.md)
+    -   Глава 3.3: [Типы языка спецификации](./docs/get-started/Chapter_3.md) ✏️
+    -   Глава 3.4: [Алгоритмы или "опять ReturnIfAbrupt"](./docs/get-started/Chapter_4.md) ✏️
+-   Глава 4.0: [Такие разные Records](./docs/records/index.md) ✏️
+-   Глава 5: [Realms](./docs/Realms.md) ✏️
 
 <br>
 
@@ -76,7 +77,7 @@
 нам работать._**
 
 ```javascript
-var str = 'hello'; // соотнесём идентификатор str со строкой 'hello'
+var str = 'hello'; // свяжем идентификатор str со строкой 'hello'
 ```
 
 Для написания качественного кода знаний одной лишь спецификации недостаточно! Немаловажным будет
@@ -93,7 +94,7 @@ JavaScript движок современности.
 
 <div>
     <a href='https://github.com/denlove'>
-        <img width='100' height='100' src="./assets/profile.png" alt="denlove avatar" />
+        <img width='100' height='100' src="./docs/assets/profile.png" alt="denlove avatar" />
     </a>
 </div>
 <br>
@@ -101,13 +102,13 @@ JavaScript движок современности.
 Информация собрана при поддержке таких проектов, как:
 
 <div align='left'>
-    <img src="./assets/ecma.png" width="50" height="50">
-    <img src='./assets/ecmaBg.jpg' height="50">
-    <img src="./assets/tc39.png" width="50" height="50">
-    <img src="./assets/myJS.png" height="50">
-    <img src="./assets/whatwg.png" width="50" height="50">
-    <img src='./assets/v8.png' height='50'>
-    <img src='./assets/chromium.png' height='50'>
+    <img src="./docs/assets/ecma.png" width="50" height="50">
+    <img src='./docs/assets/ecmaBg.jpg' height="50">
+    <img src="./docs/assets/tc39.png" width="50" height="50">
+    <img src="./docs/assets/myJS.png" height="50">
+    <img src="./docs/assets/whatwg.png" width="50" height="50">
+    <img src='./docs/assets/v8.png' height='50'>
+    <img src='./docs/assets/chromium.png' height='50'>
 </div>
 
 <br>
