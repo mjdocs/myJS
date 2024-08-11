@@ -102,13 +102,19 @@ JavaScript движок современности.
 Информация собрана при поддержке таких проектов, как:
 
 <div align='left'>
-    <img src="./docs/assets/ecma.png" width="50" height="50">
-    <img src='./docs/assets/ecmaBg.jpg' height="50">
-    <img src="./docs/assets/tc39.png" width="50" height="50">
-    <img src="./docs/assets/myJS.png" height="50">
-    <img src="./docs/assets/whatwg.png" width="50" height="50">
-    <img src='./docs/assets/v8.png' height='50'>
-    <img src='./docs/assets/chromium.png' height='50'>
+    <a href='https://tc39.es/'><img src="./docs/assets/tc39.png" height="50"></a>
+    &nbsp;
+    <a href='https://v8.dev/'><img src='./docs/assets/v8.png' height='50'></a>
+    &nbsp;
+    <a href='https://spec.whatwg.org/'><img src="./docs/assets/whatwg.png" height="50"></a>
+    &nbsp;
+    <a href='https://www.wikipedia.org/'><img src="./docs/assets/wiki.png" height="50"></a>
+    &nbsp;
+    <a href='https://www.youtube.com/@AsForJS'><img src="./docs/assets/asforjs.png" height="50"></a>
+    &nbsp;
+    <a href='https://www.chromium.org/Home/'><img src='./docs/assets/chromium.png' height='50'></a>
+    &nbsp;
+    <a href='https://github.com/mjdocs'><img src="./docs/assets/myJS.png" height="50"></a>
 </div>
 
 <br>
