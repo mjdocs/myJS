@@ -183,8 +183,8 @@ ECMAScript, откуда появляется ещё одно направлен
 -   Рано или поздно любая интерпретация станет недостаточной при решении ряда сложных задач
     оптимизации. Так что за нахождением решения необходимо идти в саму спецификацию.
 
-~ [Глава 2: Введение](/Introduction.md) > Глава 3.0: "Начало" языка >
-[Глава 3.1: Грамматика языка спецификации](/get-started/Chapter_1.md)
+~ [Глава 2: Введение](../Introduction.md) > Глава 3.0: "Начало" языка >
+[Глава 3.1: Грамматика языка спецификации](./Chapter_1.md)
 
 [^1]:
     [Цитата](https://v8.dev/blog/understanding-ecmascript-part-1#:~:text=Preface-,Even%20if%20you%20know%20JavaScript%2C%20reading%20its%20language%20specification%2C%20ECMAScript%20Language%20specification%2C%20or%20the%20ECMAScript%20spec%20for%20short%2C%20can%20be%20pretty%20daunting,-.%20At%20least%20that%E2%80%99s)
