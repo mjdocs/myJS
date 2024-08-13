@@ -15,5 +15,5 @@
 
 ...
 
-~ [Глава 3.4: Алгоритмы или "_опять ReturnIfAbrupt_"](../get-started/Chapter_4.md) > Глава 4.0:
-Такие разные Records
+~ [Глава 3.4: Алгоритмы или "_Mr. ReturnIfAbrupt_"](../get-started/Chapter_4.md) > Глава 4.0: Такие
+разные Records
