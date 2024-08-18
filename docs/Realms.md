@@ -24,3 +24,7 @@
 [_Evaluation_](https://tc39.es/ecma262/multipage/syntax-directed-operations.html#sec-evaluation),
 согласно спецификации, весь ECMAScript код должен быть связан с некоторым **_realm_**. Причин у
 этого много, и все они кроются в том, как с этим _realm_ работают остальные участки спецификации.
+
+...
+
+~ [Глава 4.0: Такие разные Records](./records/index.md) > Глава 5: Realms
