@@ -18,7 +18,7 @@ jobs:
           GH_REPO: ${{ github.repository }}
           NUMBER: ${{ github.event.issue.number }}
           BODY: |
-            # 🎀 Обращение принято
+            ## 🎀 Обращение принято
             
             > [!NOTE]   
             > Ваше обращение 📝 _зарегистрировано_. Спасибо 🎖️ за подробное описание. Внимательно 🧐 изучим информацию. Следите 👀 за статусом обращения в проекте _[☕ MJ Consideration Stages](https://github.com/orgs/mjdocs/projects/1)_
