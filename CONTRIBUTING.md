@@ -25,7 +25,7 @@
     **_In progress_**)
 -   _Проведение работ_ (при успешном прохождении предыдущего этапа ваш вклад будет взят в работу и
     по завершении отправлен в графу **_In review_**)
--   _Подтверждение_:
+-   _Завершение_:
     -   при неуспешном выполнении этапа _Рассмотрение_ вклад будет считаться несостоятельным; графа
         **_Rejected_**;
     -   при успешном выполнении этапа _Проведение работ_ вклад будет _подтверждён_ и впоследствии
@@ -49,7 +49,9 @@
 стандартизации были созданы три шаблона: _для багов_
 ([**_Bug report_**](https://github.com/mjdocs/myJS/issues/new?assignees=&labels=bug&projects=&template=bug_report.md&title=Bug%3A+%5Byour+title%5D)),
 _новых возможностей_
-([**_Feature request_**](https://github.com/mjdocs/myJS/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.md&title=Feature%3A+%5Byour+title%5D))
+([**_Feature request_**](https://github.com/mjdocs/myJS/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.md&title=Feature%3A+%5Byour+title%5D)),
+_серьёзных предложений_
+([**_Proposal_**](https://github.com/mjdocs/myJS/issues/new?assignees=&labels=huge+proposal&projects=&template=proposal.md&title=Proposal%3A+%5Byour+title%5D))
 и _потеницальных вопросов_
 ([**_Question_**](https://github.com/mjdocs/myJS/issues/new?assignees=&labels=question&projects=&template=question.md&title=Question%3A+%5Bsubject%5D)).
 
@@ -76,6 +78,12 @@ _Issue_, как завершённое.
 и
 [_Question_](https://github.com/mjdocs/myJS/issues/new?assignees=&labels=question&projects=&template=question.md&title=Question%3A+%5Bsubject%5D).
 Все необходимые данные уже указаны в шаблонах.
+
+#### Proposal
+
+Особый вид _Issues_, служащий для серьёзных предложений, к которым, например, можно отнести идею
+_новой главы_ или вообще _новой структуры_ проекта. Используйте преимущественно этот вариант, когда
+предложение имеет нечто большее, чем небольшие изменения.
 
 #### Custom
 
