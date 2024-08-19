@@ -2,7 +2,7 @@
 name: Proposal
 about: Suggest a huge proposal for this project
 title: 'Proposal: [your title]'
-labels: enhancement, huge proposal
+labels: huge proposal
 assignees: ''
 
 ---
