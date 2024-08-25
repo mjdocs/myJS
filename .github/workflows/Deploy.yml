@@ -1,0 +1,88 @@
+name: Deploy to GitHub Pages
+on:
+    push:
+        branches:
+            - main
+    workflow_dispatch:
+permissions:
+    contents: read
+    pages: write
+    id-token: write
+concurrency:
+    group: "pages"
+    cancel-in-progress: false
+    
+jobs:
+    install-cache:
+        name: Install and cache deps
+        runs-on: ubuntu-latest
+        timeout-minutes: 2
+        strategy:
+            matrix:
+                node-version: [20]
+        steps:
+            - name: 🔦 Checkout repository
+              uses: actions/checkout@v4
+
+            - name: 🔧 Setup NodeJS v${{ matrix.node-version }}
+              uses: actions/setup-node@v4
+              with:
+                  node-version: ${{ matrix.node-version }}
+
+            - name: 📦 Cache yarn dependencies
+              uses: actions/cache@v4
+              id: cache-dependencies
+              with:
+                  path: node_modules
+                  key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+                  restore-keys: |
+                      ${{ runner.os }}-yarn-
+
+            - name: 💡 Install Dependencies
+              if: steps.cache-dependencies.outputs.cache-hit != 'true'
+              run: yarn install --force --non-interactive
+
+    build:
+        name: Build project
+        runs-on: ubuntu-latest
+        needs: install-cache
+        timeout-minutes: 4
+        strategy:
+            matrix:
+                node-version: [20]
+        steps:
+            - name: 🔦 Checkout repository
+              uses: actions/checkout@v4
+
+            - name: 🔧 Setup NodeJS v${{ matrix.node-version }}
+              uses: actions/setup-node@v4
+              with:
+                  node-version: ${{ matrix.node-version }}
+
+            - name: 📦 Restore yarn dependencies
+              uses: actions/cache@v4
+              id: cache-dependencies
+              with:
+                  path: node_modules
+                  key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+                  restore-keys: |
+                      ${{ runner.os }}-yarn-
+
+            - name: 📦 Build app
+              run: yarn build
+
+            - name: 🐶 Upload artifact
+              uses: actions/upload-pages-artifact@v3
+              with:
+                  path: ./build
+
+    deploy:
+        environment:
+            name: github-pages
+            url: ${{ steps.deployment.outputs.page_url }}
+        runs-on: ubuntu-latest
+        needs: build
+        steps:
+            - name: Deploy to GitHub Pages
+              id: deployment
+              uses: actions/deploy-pages@v4
