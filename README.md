@@ -1,5 +1,5 @@
 <div align='center'>
-    <img src='./docs/assets/ecma-big.png'>
+    <img src='./static/img/ecma-big.png'>
 </div>
 
 <br><br>
@@ -46,17 +46,25 @@
 
 Здесь представлено полное доступное содержание документации:
 
--   Глава 0: [Важное предисловие](./docs/Preface.md)
--   Глава 1: [Методология исследования](./docs/Methodology.md)
--   Глава 2: [Введение](./docs/Introduction.md)
--   Глава 3.0: ["Начало" языка](./docs/get-started/index.md)
-    -   Глава 3.1: [Грамматика языка спецификации](./docs/get-started/Chapter_1.md)
-    -   Глава 3.2: [Грамматика — Свобода vs Сложность](./docs/get-started/Chapter_2.md)
-    -   Глава 3.3: [Типы языка спецификации](./docs/get-started/Chapter_3.md) ✏️
-    -   Глава 3.4: [Алгоритмы или "_Mr. ReturnIfAbrupt_"](./docs/get-started/Chapter_4.md) ✏️
--   Глава 4.0: [Такие разные Records](./docs/records/index.md) ✏️
-    -   Глава 4.1: [Environvent Record или Funarg проблема](./docs/records/Chapter_1.md) ✏️
--   Глава 5: [Realms](./docs/Realms.md) ✏️
+-   Глава 0: [Важное предисловие](https://mjdocs.github.io/myJS/docs/preface)
+-   Глава 1: [Методология исследования](https://mjdocs.github.io/myJS/docs/methodology)
+-   Глава 2: [Введение](https://mjdocs.github.io/myJS/docs/introduction)
+-   Глава 3.0: ["Начало" языка](https://mjdocs.github.io/myJS/docs/language-beginning)
+    -   Глава 3.1:
+        [Грамматика языка спецификации](https://mjdocs.github.io/myJS/docs/language-beginning/language-grammar)
+    -   Глава 3.2:
+        [Грамматика — Свобода vs Сложность](https://mjdocs.github.io/myJS/docs/language-beginning/grammar-freedom-vs-complexity)
+    -   Глава 3.3:
+        [Типы языка спецификации](https://mjdocs.github.io/myJS/docs/language-beginning/language-spec-types)
+        ✏️
+    -   Глава 3.4:
+        [Алгоритмы или "_Mr. ReturnIfAbrupt_"](https://mjdocs.github.io/myJS/docs/language-beginning/algorithms)
+        ✏️
+-   Глава 4.0: [Такие разные Records](https://mjdocs.github.io/myJS/docs/records) ✏️
+    -   Глава 4.1:
+        [Environvent Record или Funarg проблема](https://mjdocs.github.io/myJS/docs/records/environment-record)
+        ✏️
+-   Глава 5: [Realms](https://mjdocs.github.io/myJS/docs/realms) ✏️
 
 <br>
 
@@ -95,7 +103,7 @@ JavaScript движок современности.
 
 <div>
     <a href='https://github.com/denlove'>
-        <img width='170' height='170' src="./docs/assets/profile.png" alt="denlove avatar" />
+        <img width='170' height='170' src="./static/img/profile.png" alt="denlove avatar" />
     </a>
 </div>
 <br>
@@ -103,19 +111,19 @@ JavaScript движок современности.
 Информация собрана при поддержке[^3] таких проектов, как:
 
 <div align='left'>
-    <a href='https://tc39.es/'><img src="./docs/assets/tc39.png" height="50"></a>
+    <a href='https://tc39.es/'><img src="./static/img/tc39.png" height="50"></a>
     &nbsp;
-    <a href='https://v8.dev/'><img src='./docs/assets/v8.png' height='50'></a>
+    <a href='https://v8.dev/'><img src='./static/img/v8.png' height='50'></a>
     &nbsp;
-    <a href='https://spec.whatwg.org/'><img src="./docs/assets/whatwg.png" height="50"></a>
+    <a href='https://spec.whatwg.org/'><img src="./static/img/whatwg.png" height="50"></a>
     &nbsp;
-    <a href='https://www.wikipedia.org/'><img src="./docs/assets/wiki.png" height="50"></a>
+    <a href='https://www.wikipedia.org/'><img src="./static/img/wiki.png" height="50"></a>
     &nbsp;
-    <a href='https://www.youtube.com/@AsForJS'><img src="./docs/assets/asforjs.png" height="50"></a>
+    <a href='https://www.youtube.com/@AsForJS'><img src="./static/img/asforjs.png" height="50"></a>
     &nbsp;
-    <a href='https://www.chromium.org/Home/'><img src='./docs/assets/chromium.png' height='50'></a>
+    <a href='https://www.chromium.org/Home/'><img src='./static/img/chromium.png' height='50'></a>
     &nbsp;
-    <a href='https://github.com/mjdocs'><img src="./docs/assets/myJS.png" height="50"></a>
+    <a href='https://github.com/mjdocs'><img src="./static/img/myJS.png" height="50"></a>
 </div>
 
 <br>
