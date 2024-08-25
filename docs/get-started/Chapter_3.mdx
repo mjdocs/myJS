@@ -1,14 +1,23 @@
-<div align='left'>
-    <img src='../assets/formal.svg'>
-    <img src='../assets/normal.svg'>
-    &nbsp;&nbsp;
-    <sup><b>? min</b></sup>
-</div>
+---
+id: language-spec-types
+slug: /language-beginning/language-spec-types
+title: Типы языка спецификации
+description: Какие бывают типы языка спецификации? Что это такое?
+sidebar_position: 2
+sidebar_label: 3.3. Типы языка спецификации
+---
+
+import ChapterInfo from '@site/src/components/ChapterInfo/ChapterInfo'
+
+<ChapterInfo type='formal' complexity='normal' time='?' />
 
 # Глава 3.3: Типы языка спецификации
 
-> [!TIP]  
-> Глава находится в разработке
+:::warning
+
+Глава находится в разработке!
+
+:::
 
 Когда основные грамматические правила языка спецификации нам стали известны, стоит обратить внимание
 на то, что и как они описывают. Если мы хотим правильно понять спецификацию, на данном этапе
@@ -75,9 +84,9 @@
 оперировать обеими системами типов.
 
 Глава нацелена на развитие умения дифференциировать обе системы типов на уровне алгоритмов языка без
-тесного контакта с самими [алгоритмами](/get-started/Chapter_3.md) (_следующая глава_). Мы подробно
-разберём **_только систему типов языка спецификации_**, а другую - уже в соответствующей главе про
-сам язык _ECMAScript_.
+тесного контакта с самими [алгоритмами](./Chapter_4.mdx) (_следующая глава_). Мы подробно разберём
+**_только систему типов языка спецификации_**, а другую - уже в соответствующей главе про сам язык
+_ECMAScript_.
 
 ## Типы спецификации
 
@@ -130,22 +139,17 @@ _операции оценки_
 
 В спецификации он выглядит так:
 
-<div align='center'>
-    <img src='assets/type1.png' alt='Image with type'>
-    <p><i>Таблица типа <a href='https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-completion-record-specification-type'>
-        Completion Record
-    </a></i></p>
+<div align='center' style={{ margin: '1rem 0' }}>
+    <img src='/myJS/img/get-started/type1.png' alt='Image with type' />
 </div>
-<br>
 
 <details>
-<summary><i>Интересный факт</i></summary>
-<br>
+<summary><i>An interesting fact...</i></summary>
 
-> В [стандарте ES2023](https://tc39.es/ecma262/2023/multipage/) значения типа были представлены в
-> _нижнем регистре_ того же шрифта, что путало разработчиков из-за схожести со значениями типов
-> самого языка _ECMAScript_. Благодаря тому что спецификация в какой-то степени совершенствуется,
-> сейчас такой проблемы нет.
+В [стандарте ES2023](https://tc39.es/ecma262/2023/multipage/) значения типа были представлены в
+_нижнем регистре_ того же шрифта, что путало разработчиков из-за схожести со значениями типов самого
+языка _ECMAScript_. Благодаря тому что спецификация в какой-то степени совершенствуется, сейчас
+такой проблемы нет.
 
 </details>
 
@@ -165,13 +169,9 @@ _"Append **something** to **List**"_, _"Insert **something** as the first elemen
 
 А вот пример применения подобного типа:
 
-<div align='center'>
-    <img src='assets/type2.png' alt='Image with type'>
-    <p><i>Часть алгоритма абстрактной операции 
-        <a href='https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#sec-globaldeclarationinstantiation'>GlobalDeclarationInstantiation
-        </a></i></p>
+<div align='center' style={{ margin: '1rem 0' }}>
+    <img src='/myJS/img/get-started/type2.png' alt='Image with type' />
 </div>
-<br>
 
 #### 3. [Record type](https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-ecmascript-specification-types:~:text=operation%20IsLessThan.-,The%20Record%20type,-is%20used%20to)
 
@@ -180,10 +180,11 @@ _Record_ является общим типом для многих частны
 Согласно спецификации, этот тип нужен для описания "_data aggregations_", что интуитивно понятнее
 будет назвать _кластерами данных_, в алгоритмах.
 
-...
+:::tip[В разработке]
 
-~ [Глава 3.2: Грамматика — Свобода vs Сложность](./Chapter_2.md) > Глава 3.3: Типы языка
-спецификации > [Глава 3.4: Алгоритмы или "_Mr. ReturnIfAbrupt_"](./Chapter_4.md)
+Продолжение следует...
+
+:::
 
 [^1]:
     Авторский термин. В спецификации нет такого понятия, как "_система типов_". Под этим выражением

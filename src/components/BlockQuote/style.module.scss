@@ -1,0 +1,33 @@
+.blockqoute-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.blockqoute {
+    width: fit-content;
+    border: none;
+    margin: 0;
+    padding: 0;
+
+    &__quote {
+        color: var(--text-color-1);
+        text-align: right;
+
+        font: {
+            style: italic;
+        }
+    }
+
+    &__author {
+        display: flex;
+        gap: 0.25rem;
+        color: grey;
+
+        font: {
+            size: var(--fs-14);
+        }
+    }
+}

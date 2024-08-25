@@ -1,17 +1,13 @@
-<div align='center'>
-    <img src='./docs/assets/ecma-big.png'>
-</div>
+---
+slug: /
+title: 'Home'
+description: Create a doc page with rich content.
+hide_table_of_contents: true
+---
 
-<br><br>
+import BlockQuote from '../components/BlockQuote/BlockQuote'
 
-<div align='right'>
-    <q><i>The World’s Most Misunderstood Programming Language Has Become the World’s Most Popular Programming Language</i></q>
-    <br>
-    <sub>~ Douglas Crockford, 2008</sub>
-
-📜[^1]
-
-</div><br>
+<BlockQuote id={0}>[^1]</BlockQuote>
 
 <hgroup>
     <h1 align='center'>— MyJS Web Docs —</h1>
@@ -29,36 +25,29 @@
 Документация вынесена на суд общественности и комьюнити разработчиков в полном объёме. Активные
 споры и конструктивные предложения приветствуются.
 
-<br>
+<br />
 
 ## 🗂️ Содержание
 
-> [!WARNING]  
-> Продукт находится на этапе _**beta-разработки!**_ Содержимое и оформление может активно
-> изменяться.
+:::warning
 
-> [!NOTE]  
-> По мере возможности данная документация постепенно будет дополняться и редактироваться согласно
-> новым версиям спецификации ECMAScript и появлению мнений и оценок со стороны читающих её людей,
-> которые захотят поделиться своими мыслями и сделать свой вклад в этот продукт.
+Продукт находится на этапе _**beta-разработки!**_ Содержимое и оформление может активно изменяться.
+
+:::
+
+:::note[Note]
+
+По мере возможности данная документация постепенно будет дополняться и редактироваться согласно
+новым версиям спецификации ECMAScript и появлению мнений и оценок со стороны читающих её людей,
+которые захотят поделиться своими мыслями и сделать свой вклад в этот продукт.
+
+:::
 
 #
 
 Здесь представлено полное доступное содержание документации:
 
--   Глава 0: [Важное предисловие](./docs/Preface.md)
--   Глава 1: [Методология исследования](./docs/Methodology.md)
--   Глава 2: [Введение](./docs/Introduction.md)
--   Глава 3.0: ["Начало" языка](./docs/get-started/index.md)
-    -   Глава 3.1: [Грамматика языка спецификации](./docs/get-started/Chapter_1.md)
-    -   Глава 3.2: [Грамматика — Свобода vs Сложность](./docs/get-started/Chapter_2.md)
-    -   Глава 3.3: [Типы языка спецификации](./docs/get-started/Chapter_3.md) ✏️
-    -   Глава 3.4: [Алгоритмы или "_Mr. ReturnIfAbrupt_"](./docs/get-started/Chapter_4.md) ✏️
--   Глава 4.0: [Такие разные Records](./docs/records/index.md) ✏️
-    -   Глава 4.1: [Environvent Record или Funarg проблема](./docs/records/Chapter_1.md) ✏️
--   Глава 5: [Realms](./docs/Realms.md) ✏️
-
-<br>
+<br />
 
 ## 🍰 Мотивация
 
@@ -85,7 +74,7 @@ var str = 'hello' // свяжем идентификатор str со строк
 изучить и работу оптимизирующего движка, например, [_V8_](https://v8.dev/blog) - самый успешный
 JavaScript движок современности.
 
-<br>
+<br />
 
 ## 🚀 Внесли серьёзный вклад
 
@@ -95,30 +84,44 @@ JavaScript движок современности.
 
 <div>
     <a href='https://github.com/denlove'>
-        <img width='170' height='170' src="./docs/assets/profile.png" alt="denlove avatar" />
+        <img width='170' height='170' src='/myJS/img/profile.png' alt='denlove avatar' />
     </a>
 </div>
-<br>
+<br />
 
 Информация собрана при поддержке[^3] таких проектов, как:
 
-<div align='left'>
-    <a href='https://tc39.es/'><img src="./docs/assets/tc39.png" height="50"></a>
+<div align='left' style={{ display: 'flex', flexWrap: 'wrap', gap: '0.3rem' }}>
+    <a href='https://tc39.es/'>
+        <img src='/myJS/img/tc39.png' height='50' />
+    </a>
     &nbsp;
-    <a href='https://v8.dev/'><img src='./docs/assets/v8.png' height='50'></a>
+    <a href='https://v8.dev/'>
+        <img src='/myJS/img/v8.png' height='50' />
+    </a>
     &nbsp;
-    <a href='https://spec.whatwg.org/'><img src="./docs/assets/whatwg.png" height="50"></a>
+    <a href='https://spec.whatwg.org/'>
+        <img src='/myJS/img/whatwg.png' height='50' />
+    </a>
     &nbsp;
-    <a href='https://www.wikipedia.org/'><img src="./docs/assets/wiki.png" height="50"></a>
+    <a href='https://www.wikipedia.org/'>
+        <img src='/myJS/img/wiki.png' height='50' />
+    </a>
     &nbsp;
-    <a href='https://www.youtube.com/@AsForJS'><img src="./docs/assets/asforjs.png" height="50"></a>
+    <a href='https://www.youtube.com/@AsForJS'>
+        <img src='/myJS/img/asforjs.png' height='50' />
+    </a>
     &nbsp;
-    <a href='https://www.chromium.org/Home/'><img src='./docs/assets/chromium.png' height='50'></a>
+    <a href='https://www.chromium.org/Home/'>
+        <img src='/myJS/img/chromium.png' height='50' />
+    </a>
     &nbsp;
-    <a href='https://github.com/mjdocs'><img src="./docs/assets/myJS.png" height="50"></a>
+    <a href='https://github.com/mjdocs'>
+        <img src='/myJS/img/myJS.png' height='50' />
+    </a>
 </div>
 
-<br>
+<br />
 
 ## 🎓 Лицензия и Авторское право
 
