@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://mjdocs.github.io/myJS/blog</id>
+    <title>MyJS Web Docs Blog</title>
+    <updated>2024-08-25T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://mjdocs.github.io/myJS/blog"/>
+    <subtitle>MyJS Web Docs Blog</subtitle>
+    <icon>https://mjdocs.github.io/myJS/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[First post]]></title>
+        <id>https://mjdocs.github.io/myJS/blog/first-post</id>
+        <link href="https://mjdocs.github.io/myJS/blog/first-post"/>
+        <updated>2024-08-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[{/ truncate /}]]></summary>
+        <content type="html"><![CDATA[<p><code>{/* truncate */}</code></p>]]></content>
+        <author>
+            <name>Denis Bronzov</name>
+        </author>
+        <category label="Docusaurus" term="Docusaurus"/>
+    </entry>
+</feed>

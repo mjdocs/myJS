@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_js=self.webpackChunkmy_js||[]).push([[15],{4594:e=>{e.exports=JSON.parse('{"authors":[{"name":"Denis Bronzov","title":"Owner","socials":{"telegram":"https://t.me/DenFront","github":"https://github.com/denlove"},"imageURL":"https://avatars.githubusercontent.com/u/95541878?v=4","key":"denlove","page":null,"count":1}]}')}}]);
