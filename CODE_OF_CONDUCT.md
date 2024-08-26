@@ -1,5 +1,5 @@
 <div>
-    <img src='./docs/assets/specialForces.png'>
+    <img src='./static/img/specialForces.png'>
 </div>
 
 # Нормы поведения

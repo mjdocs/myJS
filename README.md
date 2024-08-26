@@ -49,7 +49,7 @@
 -   Глава 0: [Важное предисловие](https://mjdocs.github.io/myJS/docs/preface)
 -   Глава 1: [Методология исследования](https://mjdocs.github.io/myJS/docs/methodology)
 -   Глава 2: [Введение](https://mjdocs.github.io/myJS/docs/introduction)
--   Глава 3.0: ["Начало" языка](https://mjdocs.github.io/myJS/docs/language-beginning)
+-   Глава 3.0: [Начало языка](https://mjdocs.github.io/myJS/docs/language-beginning)
     -   Глава 3.1:
         [Грамматика языка спецификации](https://mjdocs.github.io/myJS/docs/language-beginning/language-grammar)
     -   Глава 3.2:
@@ -85,7 +85,7 @@
 **_Вместо этого поверх вышесказанного язык вводит свои термины и абстракции, с которыми позволяет
 нам работать._**
 
-```javascript
+```js
 var str = 'hello' // свяжем идентификатор str со строкой 'hello'
 ```
 
