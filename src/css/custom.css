@@ -18,6 +18,7 @@
     /* New custom variables */
     --text-color-1: hsl(0, 0%, 50%);
     --bg-color-1: hsl(210, 30%, 97%);
+    --github-img: url('/img/github-light.svg');
     --fs-12: 0.75rem;
     --fs-14: 0.875rem;
     --fs-16: 1rem;
@@ -38,12 +39,26 @@
 
     /* Switch custom variables */
     --bg-color-1: hsl(200, 30%, 5%);
+    --github-img: url('/img/github-dark.svg');
 }
 
 /* Change default system styles to custom */
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial,
         sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+}
+
+.header-github-link {
+    background-image: var(--github-img);
+    width: 1.5rem;
+    aspect-ratio: 1 / 1;
+    opacity: 0.8;
+    transition: opacity 0.3s linear;
+    margin: 0 0.8rem;
+
+    &:hover {
+        opacity: 1;
+    }
 }
 
 .navbar,
@@ -91,6 +106,6 @@ ul.theme-doc-sidebar-menu a {
 }
 
 .footer .footer__copyright {
-    font-size: var(--fs-14);
+    font-size: var(--fs-12);
     color: var(--text-color-1);
 }

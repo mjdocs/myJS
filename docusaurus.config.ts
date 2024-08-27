@@ -7,23 +7,16 @@ const config: Config = {
     tagline: 'Real and Free JavaScript',
     favicon: 'img/favicon.ico',
 
-    // Set the production url of your site here
     url: 'https://mjdocs.github.io/',
-    // Set the /<baseUrl>/ pathname under which your site is served
-    // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: '/myJS/',
 
     // GitHub pages deployment config.
-    // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'mjdocs', // Usually your GitHub org/user name.
-    projectName: 'myJS', // Usually your repo name.
+    organizationName: 'mjdocs',
+    projectName: 'myJS',
 
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
 
-    // Even if you don't use internationalization, you can use this field to set
-    // useful metadata like html lang. For example, if your site is Chinese, you
-    // may want to replace "en" with "zh-Hans".
     i18n: {
         defaultLocale: 'ru',
         locales: ['ru'],
@@ -39,8 +32,6 @@ const config: Config = {
             {
                 docs: {
                     sidebarPath: './sidebars.ts',
-                    // Please change this to your repo.
-                    // Remove this to remove the "edit this page" links.
                     editUrl: 'https://github.com/mjdocs/myJS/tree/main',
                 },
                 blog: {
@@ -49,10 +40,7 @@ const config: Config = {
                         type: ['rss', 'atom'],
                         xslt: true,
                     },
-                    // Please change this to your repo.
-                    // Remove this to remove the "edit this page" links.
                     editUrl: 'https://github.com/mjdocs/myJS/tree/main/blog',
-                    // Useful options to enforce blogging best practices
                     onInlineTags: 'warn',
                     onInlineAuthors: 'warn',
                     onUntruncatedBlogPosts: 'warn',
@@ -65,7 +53,6 @@ const config: Config = {
     ],
 
     themeConfig: {
-        // Replace with your project's social card
         image: 'img/ecma-big.png',
         navbar: {
             title: 'MyJS Web Docs',
@@ -81,15 +68,24 @@ const config: Config = {
                     label: 'Documentation',
                 },
                 { to: '/blog', label: 'Blog', position: 'left' },
+                { to: '/about', label: 'About us', position: 'left' },
                 {
                     href: 'https://github.com/mjdocs/myJS',
-                    label: 'GitHub',
                     position: 'right',
+                    className: 'header-github-link',
+                    'aria-label': 'GitHub repository',
                 },
             ],
         },
         footer: {
             style: 'dark',
+            logo: {
+                alt: 'MyJS Web Docs logo',
+                src: 'img/myJS.png',
+                href: 'https://mjdocs.github.io/myJS/',
+                width: 50,
+                height: 50,
+            },
             copyright: `© ${new Date().getFullYear()} MyJS Web Docs. All Rights Reserved.`,
         },
         prism: {
