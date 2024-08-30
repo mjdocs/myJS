@@ -68,7 +68,7 @@ const config: Config = {
                     label: 'Documentation',
                 },
                 { to: '/blog', label: 'Blog', position: 'left' },
-                { to: '/about', label: 'About us', position: 'left' },
+                { to: '/about-us', label: 'About us', position: 'left' },
                 {
                     href: 'https://github.com/mjdocs/myJS',
                     position: 'right',

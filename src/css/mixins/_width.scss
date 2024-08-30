@@ -1,0 +1,30 @@
+@use 'sass:math';
+
+// float size
+@function px-to-rem($px) {
+    $rems: math.div($px, 16px) * 1rem;
+    @return $rems;
+}
+
+@mixin fluid($type, $min-size, $max-size, $min-vw, $max-vw, $unit: vw) {
+    $u1: unit($min-vw);
+    $u2: unit($max-vw);
+    $u3: unit($min-size);
+    $u4: unit($max-size);
+
+    @if $u1 == $u2 and $u3 == $u4 {
+        & {
+            $slope: math.div($max-size - $min-size, $max-vw - $min-vw);
+            $slope-to-unit: $slope * 100;
+            $intercept-rem: px-to-rem($min-size - $slope * $min-vw);
+            $min-size-rem: px-to-rem($min-size);
+            $max-size-rem: px-to-rem($max-size);
+
+            #{$type}: clamp(
+                #{$min-size-rem},
+                #{$slope-to-unit}#{$unit} + #{$intercept-rem},
+                #{$max-size-rem}
+            );
+        }
+    }
+}
