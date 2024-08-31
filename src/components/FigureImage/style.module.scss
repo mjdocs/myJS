@@ -1,0 +1,21 @@
+@use '../../css/mixins/width';
+
+.image {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+
+    &__src {
+        width: auto;
+    }
+
+    &__caption {
+        color: var(--text-color-1);
+
+        font: {
+            style: italic;
+        }
+    }
+}
