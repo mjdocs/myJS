@@ -58,7 +58,7 @@
         [Типы языка спецификации](https://mjdocs.github.io/myJS/docs/language-beginning/language-spec-types)
         ✏️
     -   Глава 3.4:
-        [Алгоритмы "под капотом"](https://mjdocs.github.io/myJS/docs/language-beginning/algorithms)
+        [Алгоритмы "под капотом"](https://mjdocs.github.io/myJS/docs/language-beginning/algorithms-under-the-hood)
 -   Глава 4.0: [Такие разные Records](https://mjdocs.github.io/myJS/docs/records) ✏️
     -   Глава 4.1:
         [Environvent Record или Funarg проблема](https://mjdocs.github.io/myJS/docs/records/environment-record)
