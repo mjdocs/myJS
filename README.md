@@ -58,13 +58,13 @@
         [Типы языка спецификации](https://mjdocs.github.io/myJS/docs/language-beginning/language-spec-types)
         ✏️
     -   Глава 3.4:
-        [Алгоритмы или "_Mr. ReturnIfAbrupt_"](https://mjdocs.github.io/myJS/docs/language-beginning/algorithms)
-        ✏️
+        [Алгоритмы "под капотом"](https://mjdocs.github.io/myJS/docs/language-beginning/algorithms)
 -   Глава 4.0: [Такие разные Records](https://mjdocs.github.io/myJS/docs/records) ✏️
     -   Глава 4.1:
         [Environvent Record или Funarg проблема](https://mjdocs.github.io/myJS/docs/records/environment-record)
         ✏️
--   Глава 5: [Realms](https://mjdocs.github.io/myJS/docs/realms) ✏️
+-   Глава 5: [Продвинутые алгоритмы](https://mjdocs.github.io/myJS/docs/advanced-algorithms) ✏️
+-   Глава 6: [Realms](https://mjdocs.github.io/myJS/docs/realms) ✏️
 
 <br>
 
