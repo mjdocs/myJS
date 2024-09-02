@@ -9,6 +9,7 @@ sidebar_label: 3.1. Грамматика языка спецификации
 
 import ChapterInfo from '@site/src/components/ChapterInfo/ChapterInfo'
 import BlockQuote from '@site/src/components/BlockQuote/BlockQuote'
+import FigureImage from '@site/src/components/FigureImage/FigureImage'
 
 <ChapterInfo type='formal' complexity='normal' time='17' />
 <BlockQuote id={3}>[^1]</BlockQuote>
@@ -102,9 +103,10 @@ import BlockQuote from '@site/src/components/BlockQuote/BlockQuote'
 
 <hr />
 
-<div align='center' style={{ margin: '1rem 0' }}>
-    <img src='/myJS/img/get-started/img1.png' alt='Image with grammar' />
-</div>
+<FigureImage
+    src='/myJS/img/get-started/img1.png'
+    caption='Пример типичного production для цикла while'
+/>
 
 [На картинке](https://tc39.es/ecma262/multipage/notational-conventions.html#sec-nonterminal-symbols-and-productions)
 мы видим типичное "_предложение_", но из мира спецификации. Всё это называется **_production_**. Из
@@ -136,9 +138,10 @@ import BlockQuote from '@site/src/components/BlockQuote/BlockQuote'
 
 <hr />
 
-<div align='center' style={{ margin: '1rem 0' }}>
-    <img src='/myJS/img/get-started/img2.png' alt='Image with grammar' />
-</div>
+<FigureImage
+    src='/myJS/img/get-started/img2.png'
+    caption='Сокращённый вариант написания VariableDeclaration production'
+/>
 
 Вот теперь на
 [картинке](https://tc39.es/ecma262/multipage/notational-conventions.html#sec-optional-symbols)
@@ -152,9 +155,10 @@ import BlockQuote from '@site/src/components/BlockQuote/BlockQuote'
     необязательным для **_production_**-а. Используется только лишь в качестве сокращения. То есть в
     развёрнутом виде итоговый **_production_** будет выглядеть вот так:
 
-<div align='center' style={{ margin: '1rem 0' }}>
-    <img src='/myJS/img/get-started/img3.png' alt='Image with grammar' />
-</div>
+<FigureImage
+    src='/myJS/img/get-started/img3.png'
+    caption='Полный вариант написания VariableDeclaration production'
+/>
 
 <hr />
 
@@ -185,6 +189,7 @@ symbol_** - это такая же неделимая, нераскрывающ�
     <img src='/myJS/img/get-started/parameter3.png' alt='Image with grammar' />
     <img src='/myJS/img/get-started/parameter4.png' alt='Image with grammar' />
 </div>
+
 <hr />
 
 ### И другие
