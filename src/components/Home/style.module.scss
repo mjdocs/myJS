@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 4rem;
+    transition: all 0.8s linear;
 
     &__title {
         width: fit-content;
@@ -16,6 +17,11 @@
         color: var(--text-color-1);
 
         @include width.fluid('font-size', 16px, 22px, 375px, 1440px);
+    }
+
+    &_invisible {
+        opacity: 0;
+        visibility: hidden;
     }
 }
 
