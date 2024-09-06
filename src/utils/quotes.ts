@@ -50,4 +50,11 @@ export const QUOTES = [
         cite: '«The Art of Computer Programming», 1968',
         url: 'https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming',
     },
+    {
+        id: 7,
+        quote: '«We try to solve the problem by rushing through the design process so that enough time is left at the end of the project to uncover the errors that were made because we rushed through the design process».',
+        author: 'Glenford J. Myers',
+        cite: '«Code Complete»',
+        url: 'https://en.wikipedia.org/wiki/Code_Complete',
+    },
 ] satisfies Array<IBlockQuoteProps>
