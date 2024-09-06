@@ -10,6 +10,7 @@ sidebar_label: 5. Продвинутые алгоритмы
 import ChapterInfo from '@site/src/components/ChapterInfo/ChapterInfo'
 import BlockQuote from '@site/src/components/BlockQuote/BlockQuote'
 import FigureImage from '@site/src/components/FigureImage/FigureImage'
+import Enum from '@site/src/ui/Enum/Enum'
 
 <ChapterInfo type='formal' complexity='hard' time='?' />
 <BlockQuote id={7}>[^1]</BlockQuote>
@@ -152,7 +153,7 @@ Evaluation_ конструкция `Return`, согласно специфика
 Перед нами _abstruct_ операция `Set()`. В её алгоритме представлено два варианта выхода: `throw` и
 `Return`. Первый из них будет разобран позже, поэтому давайте обратим внимание на второй —
 `3. Return UNUSED`. Если бы это была _syntax-directed_ операция, то, вероятнее всего, если в
-описании не указано иного, было бы возвращено некоторое значение `UNUSED` типа
+описании не указано иного, было бы возвращено некоторое значение <Enum>unused</Enum> типа
 [_Enum_](https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-enum-specification-type).
 
 Но в данном случае мы имеем дело с _abstruct_ операцией, так что, согласно правилу _Implicit Normal
@@ -172,8 +173,8 @@ Completion_, `3. Return UNUSED` будет изменено в
 />
 
 Как можно заметить, возвращается всё тот же _Completion Record_, но с другим значением типа _Enum_
-внутреннего поля [[_Type_]] — THROW, а объект исключения занимает поле [[_Value_]] и зависит от
-соответствующего исключения.
+внутреннего поля [[_Type_]] — <Enum>throw</Enum>, а объект исключения занимает поле [[_Value_]] и
+зависит от соответствующего исключения.
 
 ### Скрытный _Mr. `ReturnIfAbrupt()`_
 
