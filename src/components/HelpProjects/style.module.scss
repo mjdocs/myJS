@@ -1,0 +1,19 @@
+.help-projects {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 2rem 0;
+
+    &__img-link {
+        $height: 3rem;
+
+        width: fit-content;
+        padding: 0.1rem;
+
+        & img {
+            height: $height;
+        }
+    }
+}

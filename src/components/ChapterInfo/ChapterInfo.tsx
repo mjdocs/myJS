@@ -8,7 +8,7 @@ interface IChapterInfo {
 
 const ChapterInfo = ({ type, complexity, time }: IChapterInfo) => {
     return (
-        <header className={style.header}>
+        <article className={style['info-wrapper']}>
             <div className={style.list}>
                 <img
                     className={style.list__item}
@@ -22,7 +22,7 @@ const ChapterInfo = ({ type, complexity, time }: IChapterInfo) => {
                 />
                 <span className={style.list__time}>{time + ' min'}</span>
             </div>
-        </header>
+        </article>
     )
 }
 

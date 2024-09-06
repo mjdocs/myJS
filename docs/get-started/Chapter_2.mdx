@@ -33,7 +33,7 @@ ECMAScript развивался от версии к версии. С момен
 Всё пришло к тому, что написанием спецификации занялись люди, далёкие от разработки. Уверен, они,
 скорее всего, являются хорошими лингвистами или учёными, но это не отменяет того факта, что
 описанием языка занимаются люди, которым как будто не приходилось применять его в серьёзных
-условиях, для себя. Такие документы должны писаться согласно модели _"разработчик -
+условиях, для себя. Такие документы должны писаться согласно модели _"разработчик —
 разработчику"_[^2].
 
 Ввиду всего вышесказанного, попросту говоря, познать спецификацию в современных условиях стало
@@ -56,22 +56,22 @@ ECMAScript развивался от версии к версии. С момен
 -   [Syntactic grammar](https://tc39.es/ecma262/multipage/notational-conventions.html#sec-syntactic-grammar)
 
 Давайте приступим к внимательному рассмотрению каждой из них. Заодно попутно попытаемся ответить на
-вопрос: что лучше - **_Свобода vs Сложность_**?
+вопрос: что лучше — **_Свобода vs Сложность_**?
 
 :::warning
 
-Далее будет происходить переплетение языка _ECMAScript_ с языком спецификации.
+Далее будет происходить переплетение языка ECMAScript с языком спецификации.
 
 :::
 
 ### Lexical grammar
 
 Эта грамматика является основополагающей во всём языке. Она помогает разбивать нашу программу по
-смысловым частям - по сути, _придаёт смысл_ нашим написанным буквам и цифрам в коде. Именно она
+смысловым частям — по сути, _придаёт смысл_ нашим написанным буквам и цифрам в коде. Именно она
 вступает в игру, когда необходимо определить, какую сущность языка мы тут написали, будь то
 идентификатор
 ([_Identifiers_](https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-identifiers)),
-цикл _`while`_
+цикл `while`
 ([_WhileStatement_](https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#prod-WhileStatement))
 или комментарий
 ([_Comments_](https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html#sec-comments)).
@@ -89,11 +89,11 @@ ECMAScript развивался от версии к версии. С момен
 ([_AdditiveExpression_](https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AdditiveExpression)).
 
 В основе этой грамматики лежит некоторый
-[Unicode **_code point_**](https://en.wikipedia.org/wiki/Code_point#In_Unicode) - кодовое значение
+[Unicode **_code point_**](https://en.wikipedia.org/wiki/Code_point#In_Unicode) — кодовое значение
 символа [Unicode](https://en.wikipedia.org/wiki/Unicode). Именно из таких символов состоит
 написанный программистами код или, согласно _Lexical grammar_, исходный текст
 ([**_source text_**](https://tc39.es/ecma262/multipage/ecmascript-language-source-code.html#sec-source-text)).
-В рамках этой грамматики **_code point_** - это уже знакомый нам **_terminal symbol_**. Вот как
+В рамках этой грамматики **_code point_** — это уже знакомый нам **_terminal symbol_**. Вот как
 выглядит **_code point_** в спецификации:
 
 <FigureImage src='/myJS/img/get-started/2_1.png' caption='White Space Code Points table' />
@@ -103,12 +103,12 @@ ECMAScript развивался от версии к версии. С момен
 [**_input elements_**](https://tc39.es/ecma262/multipage/notational-conventions.html#sec-syntactic-and-lexical-grammars:~:text=of%20input%20elements.-,Input%20elements%20other%20than%20white%20space%20and%20comments%20form%20the%20terminal%20symbols%20for%20the%20syntactic%20grammar%20for%20ECMAScript%20and%20are%20called%20ECMAScript%20tokens.,-These%20tokens%20are)
 или уже известные нам **_nonterminal symbols_**.
 
-Так, уже в рамках другой грамматики - _Syntactic grammar_ - наши **_input elements_** формируют
-**_token_**-ы. То есть, буквально, токен `while` (цикл while в JavaScript) побуквенно или, согласно
-_Lexical grammar_, по каждому **_code point_** был собран в **_input element_** `while`, который
-также является **_token_**-ом в рамках уже _Syntactic grammar_, отвечающей за синтаксис.
+Так, уже в рамках другой грамматики — _Syntactic grammar_ — наши **_input elements_** формируют
+**_token_**-ы. То есть, буквально, токен `while` (цикл _while_ в JavaScript) побуквенно или,
+согласно _Lexical grammar_, по каждому **_code point_** был собран в **_input element_** `while`,
+который также является **_token_**-ом в рамках уже _Syntactic grammar_, отвечающей за синтаксис.
 
-Идентифицировать грамматику можно по _двойному двоеточию_ - **_"::"_** (_two colons_). На картинке
+Идентифицировать грамматику можно по _двойному двоеточию_ — **_"::"_** (_two colons_). На картинке
 ниже изображены 2 **_productions_** в _Lexical grammar_:
 
 <FigureImage src='/myJS/img/get-started/2_2.png' caption='Lexical Grammar productions' />
@@ -117,12 +117,12 @@ _Lexical grammar_, по каждому **_code point_** был собран в *
 <summary><i>Обращаю внимание</i></summary>
 
 Может показаться, что одни и те же термины являются одинаковыми для разных грамматик. **_Это не
-так!_** Каждой грамматике самой дозволено определять, что она считает **_terminal symbol_**, а что -
+так!_** Каждой грамматике самой дозволено определять, что она считает **_terminal symbol_**, а что —
 **_token_**.
 
-Выше Вы увидели, что такое переплетение двух грамматик. `while` для _Lexical grammar_ - это
+Выше Вы увидели, что такое переплетение двух грамматик. `while` для _Lexical grammar_ — это
 последовательность **_Unicode code points_**, то есть **_input element_**, который по
-совместительству является и **_nonterminal_**, а для _Syntactic grammar_ этот же самый `while` - это
+совместительству является и **_nonterminal_**, а для _Syntactic grammar_ этот же самый `while` — это
 **_token_** или **_terminal symbol_**.
 
 </details>
@@ -162,7 +162,7 @@ _Lexical grammar_, по каждому **_code point_** был собран в *
 ### RegExp grammar
 
 Об этой грамматике стоит лишь сказать, что её отделили от _Lexical grammar_ в целях разделения
-ответственности за предмет своего описания - регулярные выражения
+ответственности за предмет своего описания — регулярные выражения
 ([_regular expressions_](https://tc39.es/ecma262/multipage/text-processing.html#sec-regexp-regular-expression-objects)).
 Грамматика описывает, как последовательности **_code points_** преобразуются в паттерны регулярных
 выражений.
@@ -181,7 +181,7 @@ colons_), что можно увидеть на картинке ниже:
 Это ещё одна дополнительная грамматика, являющаяся попросту инкапсулированным вариантом _Lexical
 grammar_ для определения частных форм операции
 [приведения типов](https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion) в
-языке ECMAScript - конвертация
+языке ECMAScript — конвертация
 [_primitive value_](https://tc39.es/ecma262/multipage/overview.html#sec-primitive-value) типа
 [_String_](https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-ecmascript-language-types-string-type)
 в _primitive value_ общего типа
@@ -206,10 +206,10 @@ grammar_ для определения частных форм операции
 
 По сути, эта грамматика определяет возможные варианты синтаксиса языка, то есть как нам, согласно
 спецификации, разрешено писать ту или иную конструкцию программы. Вместе с этим грамматикой
-накладываются ограничения на наш код, и в качестве сигнала их достижения - синтаксические ошибки.
+накладываются ограничения на наш код, и в качестве сигнала их достижения — синтаксические ошибки.
 
 В основе этой грамматики лежит **_token_**, здесь он же и **_terminal symbol_**. Выше мы уже
-рассмотрели один из таких токенов - _`while`_. Вот как он в рамках грамматики выглядит в
+рассмотрели один из таких токенов — _`while`_. Вот как он в рамках грамматики выглядит в
 спецификации, с разделением на две части с помощью одного двоеточия **_":"_** (_just one colon_):
 
 <FigureImage src='/myJS/img/get-started/2_5.png' caption='The While Statement syntax production' />
@@ -230,11 +230,11 @@ _source code_ некие **_input elements_** в отдельный **_stream_**
 symbols_** грамматики будут замечены лишние незадействованные **_tokens_**.
 
 После успешного парсинга, что логично, должен быть представлен какой-то результат. Согласно
-спецификации, создаётся некое **_parse tree_** - корневая древовидная
+спецификации, создаётся некое **_parse tree_** — корневая древовидная
 [структура](https://tc39.es/ecma262/multipage/notational-conventions.html#sec-numeric-string-grammar:~:text=tree%2C%20a-,rooted%20tree%20structure%20in%20which%20each%20node%20is%20a%20Parse%20Node,-.%20Each%20Parse%20Node),
 ответвления которого формируют **_Parse Node_**. Такое строение достаточно просто описывается тем,
 что каждая отдельная сущность (_instance_) предствляет собой **_nonterminal_** с соотнемённым куском
-_source text_, а в основании **_parse tree_** - весь представленный _source text_.
+_source text_, а в основании **_parse tree_** — весь представленный _source text_.
 
 Согласно спецификации, важно помнить что:
 
@@ -269,7 +269,7 @@ _source text_, а в основании **_parse tree_** - весь предст
 4. _Numeric String grammar_: опредеяет, как строки преобразуются в числовые значения.
 5. _Syntactic grammar_: определяет, как последовательности токенов формируют синтаксически
    правильные независимые компоненты программы.
-6. Рассуждая над тем, каков же итог нашего раунда - **_Свобода vs Сложность_** - понятно одно: язык
+6. Рассуждая над тем, каков же итог нашего раунда — **_Свобода vs Сложность_** — понятно одно: язык
    спецификации написан свободно, что удобно для редактирования, и сложно, что плохо для восприятия.
 
 [^1]:
