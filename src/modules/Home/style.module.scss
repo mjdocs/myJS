@@ -1,0 +1,49 @@
+@use '../../css/mixins/width';
+
+.home {
+    width: 100%;
+    height: calc(100vh - 2rem - 7.75rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    transition: all 0.8s linear;
+
+    &__title {
+        width: fit-content;
+        margin: 2rem auto;
+        text-align: center;
+        color: var(--text-color-1);
+
+        @include width.fluid('font-size', 16px, 22px, 375px, 1440px);
+    }
+
+    &_invisible {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.logo-wrapper {
+    width: fit-content;
+
+    & svg {
+        @include width.fluid('width', 350px, 900px, 375px, 1440px);
+
+        @media screen and (min-width: 1440px) {
+            width: 900px;
+        }
+
+        & path:nth-child(1) {
+            fill: var(--text-color-2);
+        }
+
+        & path:nth-child(2) {
+            fill: var(--ifm-font-color-base);
+        }
+        & path:nth-child(3) {
+            fill: var(--ifm-font-color-base);
+        }
+    }
+}
