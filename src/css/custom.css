@@ -17,6 +17,7 @@
 
     /* New custom variables */
     --bg-color-1: hsl(210, 30%, 97%);
+    --bg-color-2: hsla(0, 0%, 97%, 0.7);
     --github-img: url('/img/github-light.svg');
 
     --text-color-1: hsl(0, 0%, 50%);
@@ -44,8 +45,8 @@
     --ifm-background-color: hsl(213, 25%, 7%) !important;
 
     /* Switch custom variables */
-    --box-sh-1: 0px 0px 10px 10px var(--bg-color-1);
     --bg-color-1: hsl(200, 30%, 5%);
+    --bg-color-2: hsla(213, 25%, 7%, 0.7);
     --github-img: url('/img/github-dark.svg');
 }
 
@@ -77,7 +78,7 @@ body {
 .navbar-sidebar {
     background-color: var(--bg-color-1);
     border-bottom: 1px solid var(--ifm-toc-border-color);
-    box-shadow: var(--box-sh-1);
+    box-shadow: none;
 }
 
 .card {
