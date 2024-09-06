@@ -8,6 +8,7 @@ sidebar_label: 3.3. Типы языка спецификации
 ---
 
 import ChapterInfo from '@site/src/components/ChapterInfo/ChapterInfo'
+import FigureImage from '@site/src/components/FigureImage/FigureImage'
 
 <ChapterInfo type='formal' complexity='normal' time='?' />
 
@@ -63,7 +64,7 @@ import ChapterInfo from '@site/src/components/ChapterInfo/ChapterInfo'
 типов не обойтись. Но не у каждого языка спецификации есть свои типы, ровно как и не у каждой
 спецификации есть её язык.
 
-## Про типы в _ECMAScript_
+## Про типы в ECMAScript
 
 В спецификации существует разделение типов на две системы[^1]:
 [система типов языка _ECMAScript_](https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-ecmascript-language-types)
@@ -139,9 +140,7 @@ _операции оценки_
 
 В спецификации он выглядит так:
 
-<div align='center' style={{ margin: '1rem 0' }}>
-    <img src='/myJS/img/get-started/type1.png' alt='Image with type' />
-</div>
+<FigureImage src='/myJS/img/get-started/3_1.png' caption='Completion Record Fields table' />
 
 <details>
 <summary><i>An interesting fact...</i></summary>
@@ -169,9 +168,10 @@ _"Append **something** to **List**"_, _"Insert **something** as the first elemen
 
 А вот пример применения подобного типа:
 
-<div align='center' style={{ margin: '1rem 0' }}>
-    <img src='/myJS/img/get-started/type2.png' alt='Image with type' />
-</div>
+<FigureImage
+    src='/myJS/img/get-started/3_2.png'
+    caption='Abstruct operation - GlobalDeclarationInstantiation()'
+/>
 
 #### 3. [Record type](https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-ecmascript-specification-types:~:text=operation%20IsLessThan.-,The%20Record%20type,-is%20used%20to)
 
