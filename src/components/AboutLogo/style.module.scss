@@ -1,0 +1,31 @@
+@use '../../css/mixins/width';
+
+.logo-wrapper {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7%;
+    margin-bottom: 4rem;
+
+    & svg:first-child {
+        @include width.fluid('width', 60px, 120px, 375px, 1440px);
+    }
+
+    &__separator {
+        width: 0.125rem;
+        background-color: var(--ifm-font-color-base);
+
+        @include width.fluid('height', 40px, 70px, 375px, 1440px);
+    }
+
+    & svg:last-child {
+        margin-top: 2%;
+
+        @include width.fluid('width', 250px, 600px, 375px, 1440px);
+
+        & path {
+            fill: var(--ifm-font-color-base);
+        }
+    }
+}
