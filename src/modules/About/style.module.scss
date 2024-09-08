@@ -1,0 +1,10 @@
+.about {
+    width: 100%;
+    height: calc(100vh - 2rem - 7.75rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    transition: all 0.8s linear;
+}

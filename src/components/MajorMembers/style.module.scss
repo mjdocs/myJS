@@ -1,0 +1,17 @@
+.members {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    &__img-link {
+        $size: 170px;
+
+        width: fit-content;
+
+        & img {
+            width: $size;
+            aspect-ratio: 1 / 1;
+        }
+    }
+}

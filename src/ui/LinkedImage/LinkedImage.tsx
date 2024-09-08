@@ -5,7 +5,7 @@ interface IProps extends Omit<ILinkedImage, 'id'>, IClassName {}
 const LinkedImage = ({ url, className, ...props }: IProps) => {
     return (
         <a className={className} href={url} target='_blank'>
-            <img {...props} />
+            <img {...props} loading='lazy' />
         </a>
     )
 }

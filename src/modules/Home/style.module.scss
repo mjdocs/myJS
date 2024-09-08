@@ -31,10 +31,6 @@
     & svg {
         @include width.fluid('width', 350px, 900px, 375px, 1440px);
 
-        @media screen and (min-width: 1440px) {
-            width: 900px;
-        }
-
         & path:nth-child(1) {
             fill: var(--text-color-2);
         }
