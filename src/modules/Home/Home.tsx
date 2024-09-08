@@ -13,14 +13,14 @@ const Home = () => {
     }, [])
 
     return (
-        <section ref={ref} className={c(style.home, style.home_invisible)}>
+        <article ref={ref} className={c(style.home, style.home_invisible)}>
             <div className={style['logo-wrapper']}>
                 <MainLogo />
             </div>
             <p className={style.home__title}>
                 Первое приближение к общему пониманию ECMAScript Language Specification
             </p>
-        </section>
+        </article>
     )
 }
 
