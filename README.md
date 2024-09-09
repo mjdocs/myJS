@@ -46,6 +46,8 @@
 
 Здесь представлено полное доступное содержание документации:
 
+### Часть 1: ECMAScript
+
 -   Глава 0: [Важное предисловие](https://mjdocs.github.io/myJS/docs/preface)
 -   Глава 1: [Методология исследования](https://mjdocs.github.io/myJS/docs/methodology)
 -   Глава 2: [Введение](https://mjdocs.github.io/myJS/docs/introduction)
