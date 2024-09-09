@@ -65,7 +65,7 @@ const config: Config = {
                     type: 'docSidebar',
                     sidebarId: 'ecmascriptSidebar',
                     position: 'left',
-                    label: 'Documentation',
+                    label: 'ECMAScript',
                 },
                 { to: '/about-us', label: 'About us', position: 'left' },
                 {

@@ -63,7 +63,7 @@
     -   Глава 4.1:
         [Environvent Record или Funarg проблема](https://mjdocs.github.io/myJS/docs/records/environment-record)
         ✏️
--   Глава 5: [Продвинутые алгоритмы](https://mjdocs.github.io/myJS/docs/advanced-algorithms) ✏️
+-   Глава 5: [Продвинутые алгоритмы](https://mjdocs.github.io/myJS/docs/advanced-algorithms)
 -   Глава 6: [Realms](https://mjdocs.github.io/myJS/docs/realms) ✏️
 
 <br>
